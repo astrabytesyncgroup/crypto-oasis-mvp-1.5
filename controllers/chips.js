@@ -1,7 +1,7 @@
 const { INITIAL_CHIPS_AMOUNT } = require('../config');
 const User = require('../models/User');
 
-// @route   GET api/chips/free  
+// @route   GET api/chips/free   
 // @desc    Get free chips if user has zero chips left  
 // @access  Private  
 exports.handleFreeChipsRequest = async (req, res) => {
